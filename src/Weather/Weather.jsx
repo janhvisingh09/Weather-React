@@ -1,6 +1,7 @@
 import React, { useEffect,useState } from 'react'
 import axios from 'axios'
-import './weather.css'
+import "../Weather.css"; // Adjust based on your actual directory structure
+
 //import { useState } from 'react'
 const Weather = () => {
     const [Weather,setWeather] = useState(null)
